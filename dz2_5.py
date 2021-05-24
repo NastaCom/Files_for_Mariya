@@ -10,12 +10,13 @@
 Набор натуральных чисел можно задать сразу в коде, например, my_list = [7, 5, 3, 3, 2].
 """
 
+
 my_list = [6, 5, 4, 4, 2]
 print(my_list)
-new_list = int(input('Введите любое натуральное число - '))
+new_number = int(input('Введите любое натуральное число - '))
 i = 0
 for el in my_list:
-    if new_list <= el:
+    if new_number <= el:
         i += 1
-my_list.insert(i, new_list)
+my_list.insert(i, new_number)
 print(my_list)
