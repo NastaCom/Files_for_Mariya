@@ -3,6 +3,7 @@
 возвращает сумму наибольших двух аргументов.
 """
 
+
 def my_func(num):
     num.remove(min(num))
     return sum(num)

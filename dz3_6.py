@@ -8,6 +8,7 @@
 написанную ранее функцию int_func().
 """
 
+
 def int_func(word):
     latin_char = 'zxcvbnmlkjhgfdsaqwertyuiop'
     return word.title() if not set(word).difference(latin_char) else False
